@@ -14,4 +14,5 @@
 * addAttribute("name",name)设置传入对象的值
 * return "home"
 3. Add a Home Page
-* hello.html
+* [Spring文档](https://www.bilibili.com/video/BV1r4411r7au?p=8&t=322.6)
+*    

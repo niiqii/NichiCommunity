@@ -8,6 +8,5 @@ public class NichiCommunityApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(NichiCommunityApplication.class, args);
-    }   
-        
+    }
 }

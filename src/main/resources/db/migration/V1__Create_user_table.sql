@@ -8,4 +8,4 @@ create table USER
     GMT_MODIFIED BIGINT,
     constraint USER_PK
         primary key (ID)
-);
+);  

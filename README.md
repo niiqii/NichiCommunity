@@ -15,7 +15,6 @@
 * return "home"
 3. Add a Home Page
 * [Spring文档](https://www.bilibili.com/video/BV1r4411r7au?p=8&t=322.6)
-
 ###脚本
 ```sql
 create table USER
@@ -30,3 +29,6 @@ constraint USER_PK
 primary key (ID)
 );
 ```
+### 快捷键
+* 快速抽取对象  ctrl +　alt　＋ v 
+* 

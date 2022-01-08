@@ -1,5 +1,6 @@
-package com.nichi.nichicommunity.model;
+package com.nichi.nichicommunity.dto;
 
+import com.nichi.nichicommunity.model.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -7,8 +8,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-
-public class Question {
+public class QuestionDTO {
     
     private Integer id;
     private String title;
@@ -16,9 +16,9 @@ public class Question {
     private String tag;
     private Long gmtCreate;
     private Long gmtModified;
-    private Integer creator;
+    private Long creator;
     private Integer viewCount;
     private Integer likeCount;
     private Integer commentCount;
-    
+    private User user;
 }
